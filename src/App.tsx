@@ -5,101 +5,99 @@ const { Title, Paragraph } = Typography;
 const App = () => (
   <Row justify={"center"} gutter={[24, 36]}>
     <Col span={20}>
-      <Title style={{ textAlign: "center" }} level={1}>
-        Proje Yönetimi
+      <Title style={{ textAlign: "center" }} level={2}>
+        Sosyal Platformlar için İçerik Yönetimi
+      </Title>
+
+      <Paragraph>
+        Sosyal medya uygulamaları içerisinde yaptığınız her paylaşım mevcut veri
+        kümesinden yola çıkarak puanlanır ve kategori edilir. Burada belli başlı
+        kategoriler olduğunu bilmek önemli amaç hem indexlemeyi kolaylaştırmak
+        hem de siteler içerisinde gelir üretimi için kullanılan kaynaklara doğru
+        sonuçların daha iyi verimlilikle iletilmesini sağlamak. Belli başlı
+        platformlarda bunun nasıl yapıldığını gelişimini anlatalım. Örnekleri
+        arttırmak ve çeşitlendirmek mümkün ancak aşağıdakilerle yetinelim.
+      </Paragraph>
+
+      <Title style={{ textAlign: "center" }} level={4}>
+        1 - Twitter
       </Title>
       <Paragraph>
-        Yazılım içerisinde projenin anlaşma süreciyle birlikte başlayan
-        geliştirme ve sonrasındaki bakım süreçleri düşünüldüğünde müşteri ve
-        satıcı arasında ürünün varlığı devam edeceği süre boyunca bitmeyecek bir
-        iletişim başlamış olur. Burada mevcut ekibi ve ürünü yönetmek ise
-        günümüz koşullarında teknik bilgi eksikliği veya yetersizliğinden insan
-        davranışıyla anlaşılabilmekte. Aşağıda benzer örneklerle konuyu biraz
-        daha anlaşılır hale getirebilmek mümkün.
+        Twitterda eskiden sadece akış olarak bildiğimiz ve zaman ayarlı olarak
+        sıralanan içerikler mevcuttu. Ancak son zamanlarda gelen
+        güncellemelerden biriyle size önerilen twittler mevcut hale geldi.
+        Eskiden belli zaman aralıklarda girip yeni tweetlerin gelmediği
+        zamanlarda siteden çıkış yapardınız belirli özelliği sayfayı
+        yenilesenizde yenilemesenizde zaman geçmedikçe yeni içerik
+        göremeyeceğinizdi ve site içerisinde geçirdiğiniz zaman T idi. Önerilen
+        tweetler noktasında sizin geçmişte beğendiğiniz, rt ettiğiniz
+        paylaşımlardan takip ettiğiniz accountlardan yola çıkarak size uygun
+        gelebilecek ve zaman geçmese de günün 24 saati içerik bulup
+        görebileceğiniz ve başlangıçta T süre geçirdiğiniz twitter içerisinde T
+        süresinden daha fazla süre geçirebilmeniz artık muhtemeldir.
       </Paragraph>
 
+      <Title style={{ textAlign: "center" }} level={4}>
+        2- İnstagram
+      </Title>
       <Paragraph>
-        - 10 kişilik bir ekip ve onlarla birlikte 1 yöneticiyi ürüne
-        atadığınızda geliştirme aşamalarında ilerledikçe ve çıktı almaya
-        başladıkça ekiple satranç tahtası üzerindeki gibi oynama yaparak kimin
-        nelere katkı verdiğini veya vermediğini görebilirsiniz veya daha da
-        ilginci kim neyin bitip bitmediğinin farkında gibi bilgilere
-        ulaşabilirsiniz. Burada büyük resimde projenin veya ürünün istenen
-        şeklini bilen sadece az sayıda insan olduğundan süreci 3. göz olarak
-        izlemek daha kolaydır. Burada zor olan yönetim tarafı için ürünün sadece
-        dışarıdan görülen kısmı için istenen noktaya gelip gelmediğidir. Teknik
-        olarak eksikler riskler veya varsa hatalar nelerdir anlayabilmek zordur.
-        Genelde bu noktalarda satranç tahtasındaki hamleler başlar. Bazı kişiler
-        farklı projelere kaydırılabilir bu noktada hem görev değişikliği olan
-        personelin genel tavrı anlaşılmaya çalışılır bununla birlikte ekipte
-        kalanların gidenle ilgili genel yorumunu edinmek mümkündür bu bir an
-        değil genelde uzun bir süreçtir. Burada ekip küçülebilir büyüyebilir
-        hatta proje değişikliği yerine doğrudan işten çıkarma bile yapılabilir
-        çünkü işi tamamladığını bilen birisinin davranışıyla eksiklerinin
-        olduğunu bilen birinin davranışıyla veya hatta daha farklı durumlarda
-        yine insan davranışı ile anlaşılabilmeye çalışılır. Burada hayatın
-        içerisinden örnek vermek gerekirse endişeli olduğunuz bir gün
-        muhattabınız size isminizle hitap ederse panikleyebilirsiniz endişeniz
-        olmadığı günde çok normal bir şekilde sakin şekilde yanıt verirsiniz.
-        Özetlemek gerekirse yöneticileriniz genelde sizden daha fazla bilgiye
-        sahip değillerdir ancak oluşturduğu pozisyon ve doldurduğu otorite
-        boşluğuyla bazen hiç farkında olmadan bile olumlu veya olumsuz itiraflar
-        verirsiniz.
+        Yukarıda bahsedilen güncellemelerden bazılarını instagram daha önce
+        yaptı. Aynı twitter gibi zaman akışlı içerikten reels gibi günün 24
+        saati size uygun içerik bulabileceğiniz ve daha fazla zaman
+        geçirebileceğiniz şekilde yenilendi. İnsanlar genel olarak yaptıkları
+        şeyin ne olduğunu bile anlamadan veya hayatı yaşamadan yedikleri yemeğin
+        tabağının fotoğrafını koyup anın değil dışarıdan gelecek yorumlara bağlı
+        oldukları için genel olarak işe yaramaz dediğiniz bir çok şey toplumun
+        genel kesiminde çok kolay alıcı bulur emin olabilirsiniz.
       </Paragraph>
 
+      <Title style={{ textAlign: "center" }} level={4}>
+        3 - Toplum Yönetimi
+      </Title>
       <Paragraph>
-        * Vakti zamanında hükümdarlığın birinde bir halk varmış padişah refahı
-        arttırmak için hazinenin başına ışıltılı bir veznedarı getirir. Görevi
-        boyunca ışıltısıyla gözleri kamaştıran görkemli kaftanıyla hava atarmış.
-        Gel zaman git zaman işler yolunda gitmemeye başlar. Halk fakirleşir ama
-        durum anlaşılmaz veznedar hem sarayda hem halkın arasında sürekli nabız
-        yoklar. İleride düzelecek hayal edin her şey güzel olacak diyip bir
-        yandan hayal satıp bir yandan kim farkında kim ne kadar farkında değil
-        puslu havayı sezmeye çalışırmış çünkü kendisinin ve çevresinin çıkarını
-        halkın parasında görürmüş. Halktan sesler yükselmeye başladıkça
-        sarayında oturan padişah duruma anlam vermeye çalışırmış çünkü veznedar
-        çok sıradışı hiç bir yerde olmayan şeyler yapmaktaymış ama veznedar ve
-        çevreside aynı şekilde tam tersi yorum yaptıkça durum daha da
-        karışmaktaymış. Bir zaman geçip işler hala yoluna girmeyince dayanamayan
-        padişah halkın içinden birisini işleri yoluna koyması için hazinesinin
-        başına atamış. Zaman geçtikçe halktan sesler azalmaya eskiden konuşulan
-        konular konuşulmaya başlamış padişah durumun yavaş yavaş normale
-        dödüğünü bu şekilde düşünmüş ama yetinmemiş. Halkın içinden gelip
-        aslanlar gibi işini yapan veznedarı da görevden almış sonra hem halkın
-        hem veznedarın tepkisini sarayda izlemişler. Veznedar yaptıklarından
-        eminmiş sonrasında gelen veznedar da onun yaptığı işlerin üzerinden
-        devam edeceğini olağan bir şekilde söylemiş halktan gelen tepkiler ve
-        davranış yine durumun eskisi kadar olmasa da normale döndüğünü
-        gösterirmiş. Bunun üzerine hükümdarlıkta yaşanan bu hikayeyi duyan uzak
-        diyarlarda bir komutan padişaha mektup yazmış. Mektup aşağıdadır.
+        Yukarıdaki 2 başlıktan yola çıkarak zaman içerisinde platformların
+        bireylerden ziyade kitleleri etkilemek için kullanılmaya başladığını ve
+        bunun komplo teorilerinden ziyade bilgi edinmek amacıyla yapıldığıyla
+        ilgili genel kanı mevcut. Bir ülkede sosyal medya platformlarını
+        kullanarak o ülkenin kültürüne ve genel insan davranışına uygun
+        hareketleri öğrendiğinizde hem bilmediğiniz bir çok yeni bakış açısına
+        ulaşabilirsiniz hem de bunu kullanabilirisiniz. Tiktok benzeri ve asya
+        kökenli teknolojik diğer ürünlerin amerika menşeili avrupa pazarlarında
+        çok istenmemesi veya dışarıya itilmeye çalışlmasının nedenlerinden
+        başında bunlar gelir.
       </Paragraph>
 
+      <Title style={{ textAlign: "center" }} level={4}>
+        4 - Starlink
+      </Title>
       <Paragraph>
-        "Halkın durduk yere fakirleşti göz göre göre olan oldu sen hainin
-        görevden alınmasıyla mı yetineceksin bu kime revadır ? Eğer sen
-        padişahsan emir ver kellesini alsınlar eğer ben gelirsem zaten kellesini
-        alırım demiş."
+        Yine yukarıda anlatılan içeriklerden yola çıkarak bireyden başladığımız
+        yolculukta sosyal medyayla devam etmiştik şimdi ise. Twitter, İnstagram
+        Whatsapp, Linkedin vb. ayrı ayrı kullandığınız ve hepsinin kendi
+        içerisinde kullanıcısının ve kullanıcılarının yaptıklarının farklı
+        olduğu uygulamalardan. Tüm dünya data trafiğini veya hiç olmazsa 1 kaç
+        ülke bile olsa tek bir yerden ilerletmeye çalıştığınızı düşünün
+        edinebileceğiniz bilgi yönlendirme olumlu/olumsuz anlamda her şey
+        olurdu. Diğer sosyal medya uygulamarını düşündüğünüzde onların
+        toplamınında üzerinde olurdunuz.
       </Paragraph>
 
+      <Title style={{ textAlign: "center" }} level={4}>
+        5 - Genel Kanı
+      </Title>
       <Paragraph>
-        Özetlemek gerekirse çoğu zaman karşımızdakileride kendimizin bildiği
-        şeyleri bildiğini veya bilmediğini düşünerek davranırız.
-        Söylediklerimizde yaptıklarımızda davranışlarımızda bu noktada bazen
-        durup düşünmeli geçmişteki ve gelecekteki olabilecek olaylara
-        bakabilmeliyiz. Söylediklerimizle düşündüklerimizin paralel olduğu
-        anlarda bunları paylaşabilmeli ve toplum içerisinde aktarım
-        yapabilmeliyiz. Nereden aykırı ses geldiği aykırı sesin gerçekten aykırı
-        olduğu için mi geldiği yoksa farklı bir nedenden dolayı mı geldiği gibi
-        durumlar uzun soluklu anlaşılabilmekle birlikte bizi destekleyenlerin de
-        gerçekten düşündükleri ve söyledikleri birbiriyle paralel şekilde bizi
-        destekliyorlar mı yoksa mış gibi mi yapıyorlar yapıyorlarsa neden
-        yapıyorlar farkedebilmek ve alınan sorumluluklar ölçüsünde kendimizi
-        toplum içerisinde hem güvende hem de yalnız olmayacak şekilde
-        konumlayabilmemiz önemli bir konu. İçgüdü, davranış ve psikoloji
-        yalnız olduğunuz bir toplum içerisinde düşe kalka hata yaparak bu
-        hataları gelecekte tecrübe olarak kullanarak öğrendiğimiz uzun soluklu
-        yolculuk ve bu yolculukta sadece kendimizin değil çevremizdeki
-        insanlarında neler yaptıllarından öğrenerek ilerliyoruz. 
+        Hangi ülke olduğu önemli olmaksızın bazen çok farklı bir konunun
+        gündemde olduğu ve tartışıldığı görülür. Burada yapılmak istenen siyasi
+        anlamda belirli pozisyonlarda bulunan insanlarında bilgi sahibi olmadığı
+        konular hakkında toplumun genelinde konuyu tartıştırmak ve genel
+        izlenimi görebilmek. Kimin ne dediğinden ziyade kimin geçmişte ne
+        söylediği ve şimdi ne söylediği konusuyla bağlantılı olduğunu
+        düşünebilirsiniz. Bunu açıklamak gerekirse sizin tepkinizi geçmişte hep
+        çekmiş birisinin söylediği ve toplumda yine tepki çekecek bir şey
+        söylediğinde aslında zaten bunu söylediği şey ne kadar tepki çekiyor
+        yanlış bir şey mi doğru bir şey mi bu anlaşılmaya çalışılıyor olabilir.
+        Fake haber ve anlık gelişebilecek olaylarda genel izlenimi görebilmek
+        takip edebilmek süreci izlediğinizde daha anlaşılabilir hale geliyor.
       </Paragraph>
     </Col>
   </Row>
