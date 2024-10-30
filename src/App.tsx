@@ -63,7 +63,7 @@ const App = () => (
         hareketleri öğrendiğinizde hem bilmediğiniz bir çok yeni bakış açısına
         ulaşabilirsiniz hem de bunu kullanabilirisiniz. Tiktok benzeri ve asya
         kökenli teknolojik diğer ürünlerin amerika menşeili avrupa pazarlarında
-        çok istenmemesi veya dışarıya itilmeye çalışlmasının nedenlerinden
+        çok istenmemesi veya dışarıya itilmeye çalışılmasının nedenlerinden
         başında bunlar gelir.
       </Paragraph>
 
